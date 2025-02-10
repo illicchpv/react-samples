@@ -1,5 +1,9 @@
 ## тут буду собирать всякие примеры и не очевидные случаи в REACT
+---
 
+[Website recoiljs: ](https://recoiljs.org)
+
+---
 
 - create minimal vite react project https://vite.dev/guide/  
 ```
@@ -9,12 +13,24 @@
 -   cd test-app //там запускаем vscode	
 - edit package.json  
 ```
-"scripts": {  
-  "dev": "vite",  
-  "devOpen": "vite --open",  
-  "build": "vite build --base=./ --emptyOutDir", 	    
-  "lint": "eslint .",  
-  "preview": "vite preview"  
+  "scripts": {
+    "dev": "vite",
+    "devOpen": "vite --open",
+    "build": "vite build --base=./ --emptyOutDir",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "globals": "^15.14.0",
+    "vite": "^6.1.0"
+  }
 ```    
 - >npm i
 - убираем лишнее:   
