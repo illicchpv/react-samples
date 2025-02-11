@@ -1,3 +1,22 @@
+познакомлю с самопальным 'state manager' основанном на работе с URL. с хеш частью URL
+
+---
+'state manager', 'props drilling', nuqs, useState, window.history.pushState, window.history.replaceState 
+
+---
+
+например если в URL хранится счетчик и язык
+
+http://localhost:5175/#count=29&lang=jp
+
+то любой компонент приложения может эти параметры получить. вне зависимости от вложенности.
+так что это наверно можно назвать глобальным хранилищем состояния приложения.
+Такой подход тем более удобен тем что URL можно кому-то послать и тот перейдёт именно в нужное место программы.
+
+Это маленький аналог https://www.npmjs.com/package/nuqs
+
+---
+
 ## тут буду собирать всякие примеры и не очевидные случаи в REACT
 ---
 
@@ -8,7 +27,6 @@
 - create minimal vite react project https://vite.dev/guide/  
 ```
 	>npm create vite@latest -y . -- --template react
-	//  >npm create vite@latest -y test-app -- --template react
 ```  
 -   cd test-app //там запускаем vscode	
 - edit package.json  
