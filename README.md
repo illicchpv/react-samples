@@ -1,4 +1,10 @@
+## use-url-hash
+
 познакомлю с самопальным 'state manager' основанном на работе с URL. с хеш частью URL
+
+исходники:  
+https://github.com/illicchpv/react-samples  
+https://github.com/illicchpv/react-samples/blob/main/use-url-hash.zip  
 
 ---
 'state manager', 'props drilling', nuqs, useState, window.history.pushState, window.history.replaceState 
@@ -14,6 +20,15 @@ http://localhost:5175/#count=29&lang=jp
 Такой подход тем более удобен тем что URL можно кому-то послать и тот перейдёт именно в нужное место программы.
 
 Это маленький аналог https://www.npmjs.com/package/nuqs
+
+---
+## react-memo 
+
+Проясняю как использовать React memo, useMemo, useCallback.
+
+исходники:  
+https://github.com/illicchpv/react-samples  
+https://github.com/illicchpv/react-samples/blob/main/react-memo.zip  
 
 ---
 
