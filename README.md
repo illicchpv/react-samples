@@ -48,6 +48,7 @@ http://localhost:5175/#count=29&lang=jp
 
 Это маленький аналог https://www.npmjs.com/package/nuqs
 
+d:\MyLearn\react-samples-curent\use-url-hash
 ---
 ## react-memo 
 
@@ -57,6 +58,8 @@ http://localhost:5175/#count=29&lang=jp
 https://github.com/illicchpv/react-samples  
 https://github.com/illicchpv/react-samples/blob/main/react-memo.zip  
 
+
+d:\MyLearn\react-samples-curent\react-memo
 ---
 
 ## тут буду собирать всякие примеры и не очевидные случаи в REACT
