@@ -1,3 +1,30 @@
+### Напишем приложение показывающее сообщения пользователей, и некоторые данные про пользователей.
+исходники:  
+https://github.com/illicchpv/react-samples  
+https://github.com/illicchpv/react-samples/blob/main/use-url-hash.zip  
+
+
+### Данные берём: 
+  https://jsonplaceholder.typicode.com/   
+    сами сообщения(posts) и профили пользователей(users) 
+
+  т.к. фото пользователей это api не предоставляет, то фото будем брать из
+
+  https://randomuser.me/api/  
+    связь будет такая: randomuser.users[(jsonplaceholder.userId)]  
+    т.е. userId будет использоваться как индекс в массиве информаций о пользователях (там есть URL на фото)  
+    взятый с randomuser
+
+  для получения данных будем использовать самопальный хук useHttpGet.  
+
+  для начала я расскажу о хуке useHttpGet.  
+  потом будем его применять для построения требуемого приложения.
+
+  React, useState, useEffect, async, await, fetch method GET, AbortController, abort, batching, jsonplaceholder, randomuser, 
+
+d:\MyLearn\react-samples-curent\fetch-load-data
+--- 
+
 ## use-url-hash
 
 познакомлю с самопальным 'state manager' основанном на работе с URL. с хеш частью URL
