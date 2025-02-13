@@ -1,7 +1,7 @@
 ### Напишем приложение показывающее сообщения пользователей, и некоторые данные про пользователей.
 исходники:  
 https://github.com/illicchpv/react-samples  
-https://github.com/illicchpv/react-samples/blob/main/use-url-hash.zip  
+https://github.com/illicchpv/react-samples/blob/main/fetch-load-data.zip  
 
 
 ### Данные берём: 
